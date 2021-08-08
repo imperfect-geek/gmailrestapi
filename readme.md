@@ -13,11 +13,13 @@ To run the application in **Development mode** (on Windows):
 4. Login using **GET /auth/google**
 5. Send mail using **POST /sendmail**
    by below mentioned running script in cosole of the browser:
+   
    const data = {
    to: "sample@example.com",
    subject: "Assignment Test",
    message: "Hello World"
    }
+   
    fetch("_{{url}}_/sendmail", {
    method: 'POST',
    headers: {

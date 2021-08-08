@@ -22,13 +22,22 @@ To run the application in **Development mode** (on Windows):
    }
    
    fetch("_{{url}}_/sendmail", {
+   
    method: 'POST',
+   
    headers: {
+   
    'Content-Type': 'application/json'
+   
    },
+   
    body: JSON.stringify(data)
+   
    }).then(response => response.json())
+   
    .then(data => console.log(data)).catch(error => console.log(error))
+   
+   
 
 _Alternative Procedure_
 

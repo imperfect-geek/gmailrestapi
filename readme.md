@@ -12,7 +12,7 @@ To run the application in **Development mode** (on Windows):
 3. run command **npm run dev**
 4. Login using **GET /auth/google**
 5. Send mail using **POST /sendmail**
-   by below mentioned running script in cosole of the browser:
+   by running below mentioned script in cosole of the browser:
    
    const data = {
    to: "sample@example.com",

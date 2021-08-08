@@ -1,6 +1,7 @@
 # Gmail REST API
 
 _Recomended Procedure_
+
 To run the application in **Development mode** (on Windows):
 
 1. Install all dependencies including development dependencies.
@@ -30,6 +31,7 @@ To run the application in **Development mode** (on Windows):
    .then(data => console.log(data)).catch(error => console.log(error))
 
 _Alternative Procedure_
+
 To run the application in **Production mode** (on Windows):
 
 1. Install all necessary dependencies.

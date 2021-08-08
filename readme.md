@@ -1,6 +1,6 @@
 # Gmail REST API
 
-###Recomended Procedure
+### Recomended Procedure
 
 To run the application in **Development mode** (on Windows):
 
@@ -39,7 +39,7 @@ To run the application in **Development mode** (on Windows):
    
    
 
-###Alternative Procedure
+### Alternative Procedure
 
 To run the application in **Production mode** (on Windows):
 
@@ -55,4 +55,4 @@ To run the application in **Production mode** (on Windows):
 
 **Step 4** and **Step 5** same as above.
 
-######On Linux change scripts in _package.json_ accordingly.
+###### On Linux change scripts in _package.json_ accordingly.

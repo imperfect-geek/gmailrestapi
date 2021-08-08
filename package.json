@@ -1,0 +1,29 @@
+{
+  "name": "google-oauth",
+  "version": "1.0.0",
+  "description": "Quickwork Technologies Test Assignment",
+  "main": "server.js",
+  "scripts": {
+    "dev": "SET NODE_ENV=dev&& nodemon server.js",
+    "start": "SET NODE_ENV=prod&& node server.js"
+  },
+  "keywords": [
+    "google-oauth",
+    "gmail-api",
+    "quickwork-technologies"
+  ],
+  "author": "Aditya Chaudhari",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-session-json": "0.0.8",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
